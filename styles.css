@@ -1,0 +1,244 @@
+/*Main Classes*/
+body{
+    color: Black;
+    background-color: seashell;
+    scrollbar-shadow-color:#ff793f;
+    scrollbar-color: #cd6133;
+    scrollbar-darkshadow-color: #b33939;
+    scrollbar-track-color: #ff5252;
+    font-family: 'Recursive', Helvetica, Arial, sans-serif;
+    font-weight: 700;
+}
+main{
+    margin: auto;
+    padding: auto;
+    border-color: #ff793f;
+    border-radius: 3px;
+    border-style: solid;
+}
+header{
+    position:fixed;
+    top: 0;
+    border-bottom-style: solid;
+    border-bottom-color:  #b33939;
+    margin: 0px;
+    align-items: center;
+    text-align: center;
+}
+/*Sub Classes*/
+nav{
+    margin:-25px 0vw 0px -25px;
+    align-items: center;
+    text-align: center;
+    text-shadow: 1px 1px 1px #b33939;
+    border-radius: 3px;
+    border-color:#ff793f;
+    border-style: solid;
+    background: #cd6133;
+    border-bottom-width: 7px;
+    border-right-width: 7px;
+    padding-bottom: 0px;
+    padding-top: 20px;
+    padding-right: 50px;
+    box-shadow: 2px 2px 4px #b33939;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+article{
+    padding: auto;
+    color: black;
+    margin: auto;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    align-self: center;
+}
+footer{
+    position: fixed;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    padding: 20px;
+    background-image: url(triangles.png);
+    background-size: 150%;
+    border-color: black;
+    border-style: solid;
+    border-radius: 0px;
+    border-top-width: 3px;
+    border-bottom-width: 0px;
+    border-right-width: 0px;
+    border-left-width: 0px;
+}
+/*Secondary Sub Classes*/
+iframe{
+    border-color: black;
+    border-style: solid;
+    border-radius: 0px;
+    border-width: 3px;
+}
+button {
+    background: #706fd3;
+    border: none;
+    color: #2c2c54;
+    border-radius: 7px;  
+    box-shadow: 6px 9px 4px #2c2c54;   
+    padding: 5px 10px;
+    font-size:large
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+li{
+    float: left;
+}
+li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-decoration: none;
+}
+li:first-child a{
+    padding-left: 30px;
+}
+li:last-child a{
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-right: -20px
+}
+li a:hover {
+    background-color: #944430;
+    margin-left: 0px;
+}
+/*classes*/
+.active {
+    background-color: #ff9074;
+}
+li.active a{
+    background-color: #ff9074;
+}
+.titlebox{
+    border-color: black;
+    border-style: solid;
+    border-radius: 0px;
+    border-width: 3px;
+    margin: auto;
+    margin-top: 90px;
+    background-image: url(triangles.png);
+    max-width: 1200px;
+}
+img.embeded{
+    border-color: black;
+    border-style: solid;
+    border-radius: 0px;
+    border-width: 3px;
+}
+p.text{
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    max-width: 1000px;
+}
+article.fullbarcolor{
+    margin-top: 30px;
+    padding: 20px;
+    margin-right: -50px;
+    margin-left: -50px;
+    background-color: #ff9074;
+}
+article.fullbarwhite{
+    margin-top: 30px;
+    padding: 20px;
+    margin-right: -50px;
+    margin-left: -50px;
+    background-color: white;
+}
+article.header{
+    max-width: 500px;
+    padding-bottom: 20px;
+}
+h1.header{
+    font-size: 35px;
+}
+.rightfloat{
+    float: right;
+    margin-right: 15%;
+}
+.leftfloat{
+    float: left;
+    margin-top: 50px;
+    margin-left: 15%;
+}
+p.leftfloat{
+    max-width: 300px;
+    margin-top: 20px;
+}
+.maintitle{
+    color: black;
+    font-size: 50px;
+    font-weight: bold;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+/*scrollbar*/
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: #ff9074;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #b33939;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #cf5050;
+  }
+/*Text*/
+text{
+    color: black;
+}
+h1{
+    color: black;
+    margin: 0px;
+    padding: 0px;
+}
+h2{
+    color: #cd6133;
+}
+h3{
+    color: #cd6133;
+}
+h4{
+    color: #cd6133;
+}
+h5{
+    color: #cd6133;
+}
+h6{
+    color: #cd6133;
+}
+b{
+    font-weight: bolder;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    color: #ff5252;
+}
+a:visited{
+    color: #b33939;
+}
+a:link{
+    color: #b33939;
+}
